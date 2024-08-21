@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER REAPORT</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1 style="color:rgb(246, 242, 243)"><b>Weather Application</b></h1>
+        <div>
+            <input type="text" id="locationInput" placeholder="Enter location">
+        </div>
+        <div>
+            <button id="searchButton"><b>SEARCH</b></button>
+        </div>
+        <div class="datas">
+            <!-- location -->
+            <div style="display: flex;">
+                <lable style="width: 30%; margin: 10px; padding: 10px; color:  rgb(245, 242, 243);"><b>Location :</b></lable>
+                <div style="background-color: aliceblue; width: 50%; margin: 10px; padding: 10px;" id="location"></div>
+            </div>
+            <!-- Temperature:-->
+            <div style="display: flex;">
+                <lable style="width: 30%; margin: 10px; padding: 10px; color:  rgb(250, 244, 246);"><b>Temperature :</b></lable>
+                <div style="background-color: aliceblue; width: 50%; margin: 10px; padding: 10px;" id="Temperature"></div>
+            </div>
+            <!-- Weather: -->
+            <div style="display: flex;">
+                <lable style="width: 30%; margin: 10px; padding: 10px; color:  rgb(250, 243, 245);"><b>Weather :</b></lable>
+                <div style="background-color: aliceblue; width: 50%; margin: 10px; padding: 10px;" id="Weather"></div>
+            </div>
+            <!-- Humidity:-->
+            <div style="display: flex;">
+                <lable style="width: 30%; margin: 10px; padding: 10px; color:  rgb(251, 246, 247);"><b>Humidity :</b></lable>
+                <div style="background-color: aliceblue; width: 50%; margin: 10px; padding: 10px;" id="Humidity"></div>
+            </div>
+            <!-- Wind Speed:-->
+            <div style="display: flex;">
+                <lable style="width: 30%; margin: 10px; padding: 10px; color:  rgb(254, 251, 252);"><b>Wind Speed:</b></lable>
+                <div style="background-color: aliceblue; width: 50%; margin: 10px; padding: 10px;" id="WindSpeed"></div>
+            </div>
+            <!-- clouds:-->
+            <div style="display: flex;">
+                <lable style="width: 30%; margin: 10px; padding: 10px; color:  rgb(250, 245, 247);"><b>clouds:</b></lable>
+                <div style="background-color: aliceblue; width: 50%; margin: 10px; padding: 10px;" id="clouds"></div>
+            </div>
+            
+        </div>
+
+        <div id="weatherInfo">
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #151414;
+}
+
+.container {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(./weatherimg2.jpg);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+}
+button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 40%;
+    border-radius: 5%;
+    background-color: rgb(226 48 99);
+    color: #fafdfd;
+    font-size: larger;
+    border: 0PX;
+}
+.datas{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
